@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacion"
+    app:startDestination="@id/primerFragment">
+    <fragment
+        android:id="@+id/primerFragment"
+        android:name="com.pidelectronics.storm.PrimerFragment"
+        android:label="fragment_primer"
+        tools:layout="@layout/fragment_primer" />
+    <fragment
+        android:id="@+id/ciudadFragment"
+        android:name="com.pidelectronics.storm.CiudadFragment"
+        android:label="fragment_ciudad"
+        tools:layout="@layout/fragment_ciudad" />
+    <fragment
+        android:id="@+id/postalFragment"
+        android:name="com.pidelectronics.storm.PostalFragment"
+        android:label="fragment_postal"
+        tools:layout="@layout/fragment_postal" />
+    <fragment
+        android:id="@+id/climaFragment"
+        android:name="com.pidelectronics.storm.ClimaFragment"
+        android:label="fragment_clima"
+        tools:layout="@layout/fragment_clima" />
+</navigation>
